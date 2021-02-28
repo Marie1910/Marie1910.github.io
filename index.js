@@ -16,9 +16,7 @@ function setUp(){
 }
 
 function getElement(array, element){
-    let number = Math.floor(Math.random() * array.length);
-    console.log(number, array, element);
-   
+    let number = Math.floor(Math.random() * array.length);   
     element.innerHTML = array[number]
     array.splice(number,1);
    
